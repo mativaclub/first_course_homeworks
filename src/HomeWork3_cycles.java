@@ -1,4 +1,4 @@
-public class HomeWork3 {
+public class HomeWork3_cycles {
 
 
     public static void main(String[] args) {
@@ -51,6 +51,15 @@ public class HomeWork3 {
 
             //        Homework 3.5
 
+        int previous = 0;
+        int next = 1;
+        System.out.print(previous +  " " + next);
+        for (int fibo = 2; fibo <=9; fibo++) {
+            int nextNumber = previous + next;
+            previous = next;
+            next = nextNumber;
+            System.out.print(" " + nextNumber);
+        }
 
 
 
