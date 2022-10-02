@@ -150,6 +150,34 @@ public class HomeWork1 {
         System.out.println("Difference of Denis's Salary per year is " + differenceOfSalaryDenisBeforeAndNowPerYear);
         System.out.println("Difference of Kristina's Salary per year is " + differenceOfSalaryKristinaBeforeAndNowPerYear);
 
+        //        Homework 1.6
+
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 = 15;
+        int e1 = 9;
+        int result = a1 * (b1 + (c1 - d1 * e1));
+        System.out.println(Math.abs(result));
+
+//        Homework 1.7
+
+        int k = 5;
+        int p = 7;
+        k = k + p; // k = 5 + 7, k = 12
+        p = k - p; //p = 12 - 7. p = 5;
+        k = k - p; // k = 12 - 5, k = 7
+        System.out.println("k = " + k);
+        System.out.println("p = " + p);
+
+//        Homework 1.8
+        int m = 256;
+        int middle = (m % 100)/10;
+        System.out.println(middle);
+
+
+
+
 
     }
 }

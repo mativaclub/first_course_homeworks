@@ -2,30 +2,28 @@ public class Main {
 
     public static void main(String[] args) {
 //""
-        int monthNumber = 13;
-        switch (monthNumber) {
-            case 1:
-            case 2:
-            case 12:
-                System.out.println("Winter");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("Spring");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("Summer");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println("Autumn");
-                break;
-            default:
-                System.out.println("There is no such month");
-        }
+
+//        pri deleniee na 3 - ping
+//        pri deleniee na 5 pong
+//        na 3 i na 5 ping pong
+
+
+
+
+
+
+//
+//        // homework 5
+//        int zero = 0;
+//        int one = 1;
+//        int nextNumber;
+//        System.out.print(zero + " " + one + " ");
+//        for (int fibo = 2; fibo <=9; fibo++) {
+//            nextNumber = zero + one;
+//            System.out.print(nextNumber + " ");
+//            zero = one;
+//            one = nextNumber;
+
+
     }
 }

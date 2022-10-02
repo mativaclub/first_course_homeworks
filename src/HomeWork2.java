@@ -2,7 +2,7 @@ public class HomeWork2 {
 
     public static void main(String[] args) {
 
-        //        Homework 1.1
+        //        Homework 2.1
 
         int operationSystem = 1;
         if (operationSystem == 0) {
@@ -12,7 +12,7 @@ public class HomeWork2 {
         }
 
 
-        //        Homework 1.2
+        //        Homework 2.2
 
         int operation_System = 1;
         int clientDeviceYear = 202;
@@ -27,7 +27,7 @@ public class HomeWork2 {
             System.out.println("Please install the light version of an app for Android following the link");
         }
 
-        //        Homework 1.3
+        //        Homework 2.3
 
         int year = 2024;
         if ((year % 4 == 0) || (year % 400 == 0 && year % 100 != 0)) {
@@ -36,7 +36,7 @@ public class HomeWork2 {
             System.out.println("The year is not leap");
         }
 
-        //        Homework 1.4
+        //        Homework 2.4
 
         int deliveryDistance = 60;
         int deliveryDays = 1;
@@ -48,7 +48,7 @@ public class HomeWork2 {
             System.out.println("Days required " + (++deliveryDays + 1));
         }
 
-        //        Homework 1.5
+        //        Homework 2.5
 
         int monthNumber = 13;
         switch (monthNumber) {
