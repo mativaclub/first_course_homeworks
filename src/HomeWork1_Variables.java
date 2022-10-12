@@ -1,4 +1,4 @@
-public class HomeWork1_variables {
+public class HomeWork1_Variables {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class HomeWork4_arrays {
+public class HomeWork4_Arrays {
 
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-public class HomeWork3_cycles {
+public class HomeWork3_Cycles {
 
 
     public static void main(String[] args) {

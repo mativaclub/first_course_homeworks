@@ -1,4 +1,4 @@
-public class HomeWork2_conditions {
+public class HomeWork2_Conditions {
 
     public static void main(String[] args) {
 
