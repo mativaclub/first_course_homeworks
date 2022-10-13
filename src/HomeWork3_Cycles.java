@@ -61,6 +61,13 @@ public class HomeWork3_Cycles {
             System.out.print(" " + nextNumber);
         }
 
+//        int evenNumber = 0;
+////        int oddNumber = 1;
+////        for (int nextNumber = 0; nextNumber < 5; nextNumber++) {
+////            System.out.print(evenNumber + " " + oddNumber + " ");
+////            evenNumber = evenNumber + oddNumber;
+////            oddNumber = oddNumber + evenNumber;
+////        }
 
 
 

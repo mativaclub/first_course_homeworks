@@ -196,7 +196,82 @@ public class HomeWork4_Arrays {
         }
 
 
-
+        System.out.println("задача 2.6");
+//        int[] array2 = {5, 4, 3, 2, 1};
+//        int[] buffer = new int[array2.length];
+//        for (int i = 0; i < array2.length; i++) {
+//            buffer[i] = array2[array2.length - 1 - i];
+//        }
+//        System.out.println(Arrays.toString(array2));
+//        System.out.println(Arrays.toString(buffer));
+//
+//        System.out.println();
+//
+//        System.out.println("задача 2.7");
+//        int[] array3 = {5, 4, 3, 2, 1};
+//        System.out.println(Arrays.toString(array2));
+//        int leftIndex1 = 0;
+//        int rightIndex1 = array3.length-1;
+//        while (leftIndex1 < rightIndex1) {
+//            int tmp = array3[leftIndex1];
+//            array3[leftIndex1] = array3[rightIndex1];
+//            array3[rightIndex1] = tmp;
+//            leftIndex1++;
+//            rightIndex1--;
+//        }
+//        System.out.println(Arrays.toString(array3));
+//        System.out.println();
+//        System.out.println();
+//
+//        System.out.println("задача 2.8");
+//        int[] arr = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+//        int numberToFind1 = -2;
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j < arr.length; j++) {
+//                int firstNumber = arr[i];
+//                int secondNumber = arr[j];
+//                if (firstNumber + secondNumber == -2) {
+//                    System.out.println("Found " + firstNumber + " and " + secondNumber);
+//                }
+//            }
+//        }
+//        System.out.println("задача 2.8.1");
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
+//        int leftIndex = 0;
+//        int rightIndex = arr.length-1;
+//        while (leftIndex < rightIndex) {
+//            int sum2 = arr[leftIndex] + arr[rightIndex];
+//            if (sum2 == numberToFind1) {
+//                System.out.println("Found " + arr[leftIndex] + " " + arr[rightIndex]);
+//                break;
+//            } else if (sum2 > numberToFind1) {
+//                rightIndex--;
+//            } else {
+//                leftIndex++;
+//            }
+//        }
+//
+//        System.out.println();
+//
+//        System.out.println("задача 2.9");
+//        int[] array = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+//        int numberToFind = -2;
+//        Arrays.sort(array);
+//        int first = 0;
+//        int last = array.length-1;
+//        while (first < last) {
+//            int sum1 = array[first] + array[last];
+//            if (sum1 == numberToFind) {
+//                System.out.println("Found " + array[first++] + " and " + array[last--]);
+//            } else if (sum1 > numberToFind) {
+//                last--;
+//            }  else {
+//                first++;
+//            }
+//        }
+//
+//
 
 
     }
