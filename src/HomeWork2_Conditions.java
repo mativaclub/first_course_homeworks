@@ -78,55 +78,49 @@ public class HomeWork2_Conditions {
 
 
 
+        //        Homework 2.6
+        int customerAge = 19;
+        int customerSalary = 58000;
+        double creditLimit = 1;
+        if (customerAge >= 23) {
+            creditLimit = customerSalary * 3;
+        } else {
+            creditLimit = customerSalary * 2;
+        }
+        if (customerSalary >= 50000 && customerSalary < 80000) {
+            creditLimit = creditLimit * 1.2;
+        } else if (customerSalary >= 80000) {
+            creditLimit = creditLimit * 1.5;
+        }
+        System.out.println(creditLimit);
 
-        System.out.println("Задача 6");
-//
-//        int age1 = 19;
-//        int salary1 = 58_000;
-//        double limit = 1;
-//        if (age1 >= 23) {
-//            limit = salary1 * 3;
-//        } else if (age1 < 23) {
-//            limit = salary1 * 2;
-//        }
-//        if (salary1 >= 50000 && salary1 < 80000) {
-//            limit = limit * 1.2;
-//        } else if (salary1 >= 80000) {
-//            limit = limit * 1.5;
-//        }
-//        System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//
-//        System.out.println();
-//
-//        System.out.println("Задача 7");
-//
-//        int age = 25;
-//        int salary = 60000;
-//        int wantedSum = 330000;
-//        int creditLength = 12;
-//        double basePercent = 0.1;
-//        double baseOffer = wantedSum * basePercent;
-//        float maxMonthlyPayment = salary * 0.5f;
-//        if (age <= 23) {
-//            baseOffer = baseOffer + (baseOffer * 0.01);
-//        } else if (age <= 30) {
-//            baseOffer = baseOffer + (baseOffer * 0.05);
-//        }
-//        if (salary > 80000) {
-//            baseOffer = baseOffer - (baseOffer * 0.07);
-//        }
-//        double monthlyPayment = (wantedSum + baseOffer)/creditLength;
-//        if (maxMonthlyPayment > monthlyPayment) {
-//            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxMonthlyPayment +
-//                    " рублей." + "Платеж по кредиту " + monthlyPayment + " рублей. Одобрено».");
-//        } else if (maxMonthlyPayment < monthlyPayment) {
-//            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxMonthlyPayment +
-//                    " рублей." + "Платеж по кредиту " + monthlyPayment + " рублей. Отказано».");
-//        }
-//
-//
-//    }
-//
+
+//        Homework 2.7
+
+        int age = 25;
+        int salary = 90000;
+        int wantedSum = 330000;
+        int creditLength = 12;
+        double basePercent = 0.1;
+        double baseOffer = wantedSum * basePercent;
+        float maxMonthlyPayment = salary * 0.5f;
+        if (age <= 23) {
+            baseOffer += (baseOffer * 0.01);
+        } else if (age <= 30) {
+            baseOffer += (baseOffer * 0.05);
+        }
+        if (salary > 80000) {
+            baseOffer -= (baseOffer * 0.07);
+        }
+        double monthlyPayment = (wantedSum + baseOffer)/creditLength;
+        if (maxMonthlyPayment > monthlyPayment) {
+            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxMonthlyPayment +
+                    " рублей." + "Платеж по кредиту " + monthlyPayment + " рублей. Одобрено».");
+        } else if (maxMonthlyPayment < monthlyPayment) {
+            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxMonthlyPayment +
+                    " рублей." + "Платеж по кредиту " + monthlyPayment + " рублей. Отказано».");
+        }
+
 
     }
 }

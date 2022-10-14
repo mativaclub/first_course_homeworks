@@ -57,7 +57,7 @@ public class HomeWork4_Arrays {
         //        Homework 4.3
 
         int[] arrayRev1 = new int[]{1, 2, 3};
-        for (int i = arrayRev1.length - 1; i >= 0 ; i--) {
+        for (int i = arrayRev1.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arrayRev1[i]);
             } else {
@@ -68,7 +68,7 @@ public class HomeWork4_Arrays {
         System.out.println();
 
         double[] arrayRev2 = {1.57, 7.654, 9.986};
-        for (int i = arrayRev2.length - 1; i >= 0 ; i--) {
+        for (int i = arrayRev2.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arrayRev2[i]);
             } else {
@@ -82,7 +82,7 @@ public class HomeWork4_Arrays {
         arrayRev3[0] = 3;
         arrayRev3[1] = 7;
         arrayRev3[2] = 8;
-        for (int i = arrayRev3.length - 1; i >= 0 ; i--) {
+        for (int i = arrayRev3.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arrayRev3[i]);
             } else {
@@ -121,7 +121,7 @@ public class HomeWork4_Arrays {
 
 //        Homework 5.1
 
-        int [] paymentsSum = generateRandomArray();
+        int[] paymentsSum = generateRandomArray();
         int sum = 0;
         for (int i = 0; i < paymentsSum.length; i++) {
             sum += paymentsSum[i];
@@ -130,7 +130,7 @@ public class HomeWork4_Arrays {
 
 //        Homework 5.2
 
-        int [] sumPerDay = generateRandomArray();
+        int[] sumPerDay = generateRandomArray();
         int max = sumPerDay[0];
         int min = sumPerDay[0];
         for (int i = 0; i < sumPerDay.length; i++) {
@@ -156,20 +156,19 @@ public class HomeWork4_Arrays {
         System.out.println("Average sum of expenses during month is " + average);
 
 
+        //        Homework 5.4
 
-    //        Homework 5.4
-
-    char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseFullName.length-1; i >= 0; i--) {
-        System.out.print(reverseFullName[i]);
-    }
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
 
         //        Homework 5.5.1
 
-        int [][] array2D = new int [5][10];
+        int[][] array2D = new int[5][10];
         for (int i = 0; i < array2D.length; i++) {
             for (int j = 0; j < array2D[i].length; j++) {
-                array2D[i][j]=1;
+                array2D[i][j] = 1;
             }
         }
         for (int i = 0; i < array2D.length; i++) {
@@ -181,10 +180,10 @@ public class HomeWork4_Arrays {
 
         //        Homework 5.5.2
 
-        int [][] matrix = new int [5][5];
+        int[][] matrix = new int[5][5];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j]=1;
+                matrix[i][j] = 1;
 //                matrix[i][matrix.length - 1 - i] = 1;
             }
         }
@@ -195,83 +194,87 @@ public class HomeWork4_Arrays {
             System.out.println();
         }
 
+        //        Homework 5.6
 
-        System.out.println("задача 2.6");
-//        int[] array2 = {5, 4, 3, 2, 1};
-//        int[] buffer = new int[array2.length];
-//        for (int i = 0; i < array2.length; i++) {
-//            buffer[i] = array2[array2.length - 1 - i];
-//        }
-//        System.out.println(Arrays.toString(array2));
-//        System.out.println(Arrays.toString(buffer));
-//
-//        System.out.println();
-//
-//        System.out.println("задача 2.7");
-//        int[] array3 = {5, 4, 3, 2, 1};
-//        System.out.println(Arrays.toString(array2));
-//        int leftIndex1 = 0;
-//        int rightIndex1 = array3.length-1;
-//        while (leftIndex1 < rightIndex1) {
-//            int tmp = array3[leftIndex1];
-//            array3[leftIndex1] = array3[rightIndex1];
-//            array3[rightIndex1] = tmp;
-//            leftIndex1++;
-//            rightIndex1--;
-//        }
-//        System.out.println(Arrays.toString(array3));
-//        System.out.println();
-//        System.out.println();
-//
-//        System.out.println("задача 2.8");
-//        int[] arr = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
-//        int numberToFind1 = -2;
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = i + 1; j < arr.length; j++) {
-//                int firstNumber = arr[i];
-//                int secondNumber = arr[j];
-//                if (firstNumber + secondNumber == -2) {
-//                    System.out.println("Found " + firstNumber + " and " + secondNumber);
-//                }
-//            }
-//        }
-//        System.out.println("задача 2.8.1");
-//        Arrays.sort(arr);
-//        System.out.println(Arrays.toString(arr));
-//        int leftIndex = 0;
-//        int rightIndex = arr.length-1;
-//        while (leftIndex < rightIndex) {
-//            int sum2 = arr[leftIndex] + arr[rightIndex];
-//            if (sum2 == numberToFind1) {
-//                System.out.println("Found " + arr[leftIndex] + " " + arr[rightIndex]);
-//                break;
-//            } else if (sum2 > numberToFind1) {
-//                rightIndex--;
-//            } else {
-//                leftIndex++;
-//            }
-//        }
-//
-//        System.out.println();
-//
-//        System.out.println("задача 2.9");
-//        int[] array = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
-//        int numberToFind = -2;
-//        Arrays.sort(array);
-//        int first = 0;
-//        int last = array.length-1;
-//        while (first < last) {
-//            int sum1 = array[first] + array[last];
-//            if (sum1 == numberToFind) {
-//                System.out.println("Found " + array[first++] + " and " + array[last--]);
-//            } else if (sum1 > numberToFind) {
-//                last--;
-//            }  else {
-//                first++;
-//            }
-//        }
-//
-//
+        int[] array = {5, 4, 3, 2, 1};
+        int[] temp = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            temp[i] = array[array.length - 1 - i];
+        }
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(temp));
+
+
+        //        Homework 5.7
+
+        int[] array1 = {5, 4, 3, 2, 1};
+        System.out.println(Arrays.toString(array1));
+        int leftIndex = 0;
+        int rightIndex = array1.length - 1;
+        while (leftIndex < rightIndex) {
+            int tmp = array1[leftIndex];
+            array1[leftIndex] = array1[rightIndex];
+            array1[rightIndex] = tmp;
+            leftIndex++;
+            rightIndex--;
+        }
+        System.out.println(Arrays.toString(array1));
+
+
+        //        Homework 5.8.1
+
+        int[] arr = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+        int numberToFind = -2;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                int firstNum = arr[i];
+                int secondNum = arr[j];
+                if (firstNum + secondNum == numberToFind) {
+                    System.out.println("Found " + firstNum + " and " + secondNum);
+                }
+            }
+        }
+
+        //        Homework 5.8.2
+
+        int[] arr1 = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+        int numberToFind1 = -2;
+        Arrays.sort(arr1);
+        System.out.println(Arrays.toString(arr1));
+        int leftInd = 0;
+        int rightInd = arr1.length - 1;
+        while (leftInd < rightInd) {
+            int sum2 = arr1[leftInd] + arr1[rightInd];
+            if (sum2 == numberToFind1) {
+                System.out.println("Found " + arr1[leftInd] + " " + arr1[rightInd]);
+                break;
+            } else if (sum2 > numberToFind1) {
+                rightInd--;
+            } else {
+                leftInd++;
+            }
+        }
+
+
+        //        Homework 5.9
+
+
+        int[] array2 = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+        int numToFind = -2;
+        Arrays.sort(array2);
+        int first = 0;
+        int last = array2.length - 1;
+        while (first < last) {
+            int sum3 = array2[first] + array2[last];
+            if (sum3 == numToFind) {
+                System.out.println("Found " + array2[first++] + " and " + array2[last--]);
+            } else if (sum > numToFind) {
+                last--;
+            } else {
+                first++;
+            }
+        }
+
 
 
     }
