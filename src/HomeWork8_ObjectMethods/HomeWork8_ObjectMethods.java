@@ -1,3 +1,5 @@
+package HomeWork8_ObjectMethods;
+
 public class HomeWork8_ObjectMethods {
 
     public static void main(String[] args) {
@@ -6,8 +8,6 @@ public class HomeWork8_ObjectMethods {
 
 
 
-//import java.util.Objects;
-//
 //public class Author {
 //
 //    private final String nameOfAuthor;
