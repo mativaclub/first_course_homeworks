@@ -2,19 +2,20 @@ package HomeWork7_Classes_Objects;
 
 public class Author {
 
-    private final String nameOfAuthor;
-    private final String lastNameOfAuthor;
+    private static int ID;
+    private final String firstName;
+    private final String lastName;
 
-    public Author(String nameOfAuthor, String lastNameOfAuthor) {
-        this.nameOfAuthor = nameOfAuthor;
-        this.lastNameOfAuthor = lastNameOfAuthor;
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getNameOfAuthor() {
-        return nameOfAuthor;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLastNameOfAuthor() {
-        return lastNameOfAuthor;
+    public String getLastName() {
+        return lastName;
     }
 }

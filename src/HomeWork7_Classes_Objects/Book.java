@@ -2,30 +2,30 @@ package HomeWork7_Classes_Objects;
 
 public class Book {
 
-    private final Author nameOfAuthor;
-    private final String nameOfBook;
-    private int yearOfPublishing;
+    private final Author author;
+    private final String title;
+    private int publisherYear;
 
-    public Book(Author nameOfAuthor, String nameOfBook, int yearOfPublishing) {
-        this.nameOfAuthor = nameOfAuthor;
-        this.nameOfBook = nameOfBook;
-        this.yearOfPublishing = yearOfPublishing;
+    public Book(Author author, String title, int publisherYear) {
+        this.author = author;
+        this.title = title;
+        this.publisherYear = publisherYear;
     }
 
-    public Author getNameOfAuthor() {
-        return nameOfAuthor;
+    public Author getAuthor() {
+        return author;
     }
 
-    public String getNameOfBook() {
-        return nameOfBook;
+    public String getTitle() {
+        return title;
     }
 
-    public int getYearOfPublishing() {
-        return yearOfPublishing;
+    public int getPublisherYear() {
+        return publisherYear;
     }
 
-    public void setYearOfPublishing(int yearOfPublishing) {
-        this.yearOfPublishing = yearOfPublishing;
+    public void setPublisherYear(int publisherYear) {
+        this.publisherYear = publisherYear;
     }
 }
 

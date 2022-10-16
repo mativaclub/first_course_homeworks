@@ -12,10 +12,10 @@ public class HomeWork7_Classes {
     }
 
     private static void printBook(Book book) {
-        System.out.println(String.join("; ", book.getNameOfBook(),
-                book.getNameOfAuthor().getNameOfAuthor(),
-                book.getNameOfAuthor().getLastNameOfAuthor(),
-                String.valueOf(book.getYearOfPublishing())));
+        System.out.println(String.join(": ", book.getTitle(),
+                book.getAuthor().getFirstName(),
+                book.getAuthor().getLastName(),
+                String.valueOf(book.getPublisherYear())));
     }
 
 
