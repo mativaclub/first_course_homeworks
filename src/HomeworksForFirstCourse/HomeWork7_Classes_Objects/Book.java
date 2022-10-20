@@ -1,4 +1,4 @@
-package HomeWork7_Classes_Objects;
+package HomeworksForFirstCourse.HomeWork7_Classes_Objects;
 
 public class Book {
 

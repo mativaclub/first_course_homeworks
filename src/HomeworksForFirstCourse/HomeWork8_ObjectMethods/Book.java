@@ -1,4 +1,4 @@
-package HomeWork8_ObjectMethods;
+package HomeworksForFirstCourse.HomeWork8_ObjectMethods;
 
 import java.util.Objects;
 

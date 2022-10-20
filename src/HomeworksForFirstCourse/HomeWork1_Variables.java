@@ -1,3 +1,5 @@
+package HomeworksForFirstCourse;
+
 public class HomeWork1_Variables {
 
     public static void main(String[] args) {

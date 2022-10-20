@@ -1,4 +1,4 @@
-package HomeWork8_ObjectMethods;
+package HomeworksForFirstCourse.HomeWork8_ObjectMethods;
 
 public class HomeWork8_ObjectMethods {
 

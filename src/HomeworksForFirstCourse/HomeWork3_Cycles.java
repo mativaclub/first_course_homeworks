@@ -1,3 +1,5 @@
+package HomeworksForFirstCourse;
+
 public class HomeWork3_Cycles {
 
 

@@ -1,3 +1,5 @@
+package HomeworksForFirstCourse;
+
 import java.util.Arrays;
 
 public class HomeWork6_Methods {

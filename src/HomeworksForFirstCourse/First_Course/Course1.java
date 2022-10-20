@@ -1,4 +1,4 @@
-package First_Course;
+package HomeworksForFirstCourse.First_Course;
 
 public class Course1 {
 
