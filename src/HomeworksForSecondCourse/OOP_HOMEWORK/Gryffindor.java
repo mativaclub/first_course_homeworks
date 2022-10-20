@@ -1,6 +1,6 @@
 package HomeworksForSecondCourse.OOP_HOMEWORK;
 
-public class Gryffindor extends Hogwarts{
+public class Gryffindor extends Hogwarts {
 
     private final int nobility;
     private final int honour;
@@ -34,36 +34,42 @@ public class Gryffindor extends Hogwarts{
         return "Nobility of Student is " + nobility + ", honour is " + honour + ", bravery is " + bravery;
     }
 
-    public void compareGryffindor(Gryffindor student) {
-        super.compareStudents(student);
-        if (this.nobility > student.getNobility()) {
-            System.out.println("Nobility " + this.getStudentName() + " is higher then " + student.getStudentName());
-        } else if (this.nobility == student.getNobility()) {
-            System.out.println("Nobility " + this.getStudentName() + " and " + student.getStudentName() + " are equal");
-        } else {
-            System.out.println("Nobility " + this.getStudentName() + " is lower then " + student.getStudentName());
-        }
 
-        if (this.honour > student.getHonour()) {
+    @Override
+    public void compareStudents(Hogwarts student) {
+        super.compareStudents(student);
+        if (student instanceof Gryffindor) {
+            Gryffindor gryffindorStudent = (Gryffindor) student;
+            if (this.nobility > gryffindorStudent.getNobility()) {
+                System.out.println("Nobility " + this.getStudentName() + " is higher then " + student.getStudentName());
+            } else if (this.nobility == gryffindorStudent.getNobility()) {
+                System.out.println("Nobility " + this.getStudentName() + " and " + student.getStudentName() + " are equal");
+            } else {
+                System.out.println("Nobility " + this.getStudentName() + " is lower then " + student.getStudentName());
+            }
+
+        if (this.honour > gryffindorStudent.getHonour()) {
             System.out.println("Honour " + this.getStudentName() + " is higher then " + student.getStudentName());
-        } else if (this.honour == student.getHonour()) {
+        } else if (this.honour == gryffindorStudent.getHonour()) {
             System.out.println("Honour " + this.getStudentName() + " and " + student.getStudentName() + " are equal");
         } else {
             System.out.println("Honour " + this.getStudentName() + " is lower then " + student.getStudentName());
         }
 
-        if (this.bravery > student.getBravery()) {
+        if (this.bravery > gryffindorStudent.getBravery()) {
             System.out.println("Bravery " + this.getStudentName() + " is higher then " + student.getStudentName());
-        } else if (this.bravery == student.getBravery()) {
+        } else if (this.bravery == gryffindorStudent.getBravery()) {
             System.out.println("Bravery " + this.getStudentName() + " and " + student.getStudentName() + " are equal");
         } else {
             System.out.println("Bravery " + this.getStudentName() + " is lower then " + student.getStudentName());
         }
-
+        }
     }
 
 
 
 
 
-}
+    }
+
+

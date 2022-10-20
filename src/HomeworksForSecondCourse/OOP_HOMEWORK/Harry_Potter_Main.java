@@ -6,11 +6,11 @@ public class Harry_Potter_Main {
 //""
 
 
-        Gryffindor harry = new Gryffindor("Harry Potter", 79, 77,
+        Hogwarts harry = new Gryffindor("Harry Potter", 79, 77,
                 75, 73, 71);
-        Gryffindor hermione = new Gryffindor("Hermione Granger", 89, 87,
+        Hogwarts hermione = new Gryffindor("Hermione Granger", 89, 87,
                 85, 83, 81);
-        Gryffindor ron = new Gryffindor("Ron Wizli", 69, 67,
+        Hogwarts ron = new Gryffindor("Ron Wizli", 69, 67,
                 65, 63, 61);
 
 
@@ -41,7 +41,7 @@ public class Harry_Potter_Main {
         harry.compareStudents(draco);
         System.out.println(harry);
 
-        harry.compareGryffindor(hermione);
+        harry.compareStudents(hermione);
         System.out.println(harry);
 
         zaharia.compareHufflepuff(cedric);
